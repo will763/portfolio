@@ -31,12 +31,14 @@ export const Home: React.FC = () => {
               <div className="flex justify-between w-24 mt-12 m:mt-8" ref={linksRef}>
                 <a
                  href="https://www.linkedin.com/in/william-k-lisboa/"
+                 className="z-[100]"
                  target="_blank"
                  rel="noopener noreferrer">
                   <Linkedin />
                 </a>
                 <a
                  href="https://github.com/will763" 
+                 className="z-[100]"
                  target="_blank" 
                  rel="noopener noreferrer">
                   <Github />
