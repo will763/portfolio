@@ -28,17 +28,15 @@ export const Home: React.FC = () => {
                 <h1 className="font-bold text-[3rem] m:text-[2rem] tracking-widest">William Lisboa</h1>
                 <h4 className=" m:text-sm">Full Stack Developer</h4>
               </div>
-              <div className="flex justify-between w-24 mt-12 m:mt-8" ref={linksRef}>
+              <div className="flex z-[100] justify-between w-24 mt-12 m:mt-8" ref={linksRef}>
                 <a
                  href="https://www.linkedin.com/in/william-k-lisboa/"
-                 className="z-[100]"
                  target="_blank"
                  rel="noopener noreferrer">
                   <Linkedin />
                 </a>
                 <a
                  href="https://github.com/will763" 
-                 className="z-[100]"
                  target="_blank" 
                  rel="noopener noreferrer">
                   <Github />
